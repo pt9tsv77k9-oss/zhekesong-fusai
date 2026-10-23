@@ -1,0 +1,64 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.config/ima/
+.streamlit/secrets.toml
+secrets.*
+credentials.*
+client_id
+api_key
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.pypirc
+.netrc
+id_rsa*
+id_ed25519*
+
+# Local environments and editor settings
+.venv/
+venv/
+env/
+node_modules/
+.idea/
+.vscode/
+.tools/
+
+# Runtime and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.history/
+.coverage*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+dist/
+
+# Private content and generated files
+outputs/
+logs/
+data/fact_cards/
+uploads/
+backups/
+tmp/
+*.log
+*.jsonl
+*.zip
+*.7z
+*.tar
+*.gz
+*.bak
+*.orig
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+desktop.ini

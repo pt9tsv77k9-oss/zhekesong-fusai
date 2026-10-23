@@ -1,0 +1,26 @@
+# 依赖清单：安装命令 python -m pip install -r requirements.txt。
+# == 固定已验证的版本；下方 # 开头是说明，不会被 pip 当成包安装。
+# Streamlit：用 Python 编写网页、输入框、按钮和结果展示。
+streamlit==1.51.0
+# LangChain：项目采用的大模型开发框架。
+langchain==1.3.16
+# LangChain 核心：提示词模板、串接调用等基础能力。
+langchain-core==1.6.0
+# 兼容 OpenAI 协议的模型适配器，本项目实际指向 DeepSeek 地址。
+langchain-openai==1.6.0
+# Pydantic：定义 Task/Draft 等数据模板，检查字段、类型和范围。
+pydantic==2.12.4
+# dotenv：读取本地 .env 配置，不把密钥写入代码。
+python-dotenv==1.1.0
+# ima 官方脚本使用 Node.js。该包把 Node.js 二进制一起装进 Python 环境，
+# 解决魔搭等只有 Python 的 Streamlit 环境中没有系统 node 命令的问题。
+# 这是社区维护的 Node.js 分发包；不需要 sudo、apt 或在网页运行时下载程序。
+nodejs-wheel-binaries==24.19.0
+# requests：通过 HTTPS 下载 ima 返回的原文和图片。
+requests==2.32.5
+# Pillow：代码中以 PIL 导入，用来验证图片、生成本地测试图片。
+Pillow==12.0.0
+# pypdf：提取带文本层 PDF 的文字，不提供扫描件 OCR。
+pypdf==6.16.2
+# pytest：运行 tests 文件夹中的离线自动测试。
+pytest==8.4.2

@@ -1,0 +1,28 @@
+[
+  {
+    "campaign_id": "demo-matebook14-travel-202610",
+    "title": "出差前，核对软件与携带需求",
+    "product_model": "HUAWEI MateBook 14（鸿蒙版）",
+    "audience": "差旅办公人员",
+    "scenario": "出差前，整理要使用的工作软件和携带需求，邀请到店核对",
+    "platform": "朋友圈",
+    "valid_from": "2026-10-23",
+    "valid_until": "2026-11-23",
+    "confirmed_by": "演示配置，未获总部批准",
+    "status": "启用",
+    "demo": true
+  },
+  {
+    "campaign_id": "demo-matebook14-study-202610",
+    "title": "带着课程清单选电脑",
+    "product_model": "HUAWEI MateBook 14（鸿蒙版）",
+    "audience": "大学新生",
+    "scenario": "根据课程和常用软件清单核对电脑选购需求",
+    "platform": "小红书",
+    "valid_from": "2026-10-23",
+    "valid_until": "2026-11-23",
+    "confirmed_by": "演示配置，未获总部批准",
+    "status": "启用",
+    "demo": true
+  }
+]
